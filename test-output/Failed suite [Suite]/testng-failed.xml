@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testNGListeners.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="testNG.TestFailure">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testNG.TestFailure -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
