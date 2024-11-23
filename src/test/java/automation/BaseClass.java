@@ -37,6 +37,7 @@ public class BaseClass {
 		
 		
 		System.out.println("changes made");
+		System.out.println("Add the changes");
 		
 		
 		return driver;
